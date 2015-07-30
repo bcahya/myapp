@@ -1,0 +1,33 @@
+{
+  "name": "MyHapiServerApp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bcahya/MyHapiServerApp"
+  },
+  "keywords": [
+    "Hapi",
+    "Conceptual",
+    "Practical"
+  ],
+  "author": "Bayu Cahya P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcahya/MyHapiServerApp/issues"
+  },
+  "homepage": "https://github.com/bcahya/MyHapiServerApp",
+  "dependencies": {
+    "boom": "^2.8.0",
+    "hapi": "^8.8.1",
+    "hapi-auth-jwt": "^2.1.2",
+    "joi": "^6.6.1",
+    "jsonwebtoken": "^5.0.4",
+    "moment": "^2.10.6",
+    "sequelize": "^3.5.1"
+  }
+}
