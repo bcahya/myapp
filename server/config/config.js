@@ -11,9 +11,14 @@ module.exports = {
         database: {
             host: '127.0.0.1',
             port: 5432,
-            db: '',
-            username: '',
-            password: ''
+            db: 'node',
+            username: 'adempiere',
+            password: 'adempiere',
+            pool : {
+                min: 5,
+                max: 10,
+                idle: 60 * 1000
+            }
         }
     },
 
